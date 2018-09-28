@@ -2,4 +2,85 @@
 
 /* 回答はここに書いてね */
 
+.content {
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.text:first-child {
+  margin-right: 50px;
+}
+
+.content2 {
+  display: table;
+  table-layout: fixed;
+}
+
+.item {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.item:first-child {
+  padding-right: 50px;
+}
+
+.block {
+  font-size: 0;
+}
+
+.block-text {
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.block-text:first-child {
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.full-content {
+  font-size: 0;
+}
+
+.item-left {
+  /*float: left;*/
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  vertical-align: top;
+}
+.item-right {
+  /*float: right;*/
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  font-size: 16px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+/*.item-right .q7__box__text {
+  margin-left: 350px;
+}*/
 /* 回答はここに書いてね */
