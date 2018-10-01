@@ -2,9 +2,13 @@
 
 /* 回答はここに書いてね */
 
-.box {
-  padding:20px;
+/*.box {
+  padding:20px;}
+  クラス名を変更 html側でdivタグを統合して減らした。*/
+.graph {
+  padding: 20px
 }
+
 .content {
   display: table;
   table-layout: fixed;
@@ -15,32 +19,35 @@
   margin-top: 25px
 }
 
-.item1,.item2 {
+.item { /*.item1,.item2 itemに名前を統一 色で分けてスタイルを付けるに変更。*/
   display: table-cell;
   text-align: center;
   padding: 20px;
   vertical-align: middle;
 }
 
-.item1:nth-child(1) {
+/*以下html側でclass名を増やして色ごとに指定*/
+
+.orange /*.item1:nth-child(1)*/ {
   background-color: #fdc8b8;
   width: 100px;
 }
-.item1:nth-child(2) {
+.pink /*.item1:nth-child(2)*/ {
   background-color: #e0abd9;
 }
-.item1:nth-child(3) {
+.blue /*.item1:nth-child(3)*/ {
   background-color: #b6d8ed;
   width: 100px;
 }
-.item2:nth-child(1) {
+.yellow /*.item2:nth-child(1)*/ {
   background-color: #e5d32e;
 }
-.item2:nth-child(2) {
+.red /*.item2:nth-child(2)*/ {
   background-color: #ec8f9a;
 }
-.item2:nth-child(3) {
+.green /*.item2:nth-child(3)*/ {
   background-color: #8fdcad;
   width: 500px;
 }
+
 /* 回答はここに書いてね */

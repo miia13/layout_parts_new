@@ -2,6 +2,14 @@
 
 /* 回答はここに書いてね */
 
+/*float使用時のclearfix忘れがちです〜〜〜！！*/
+
+.clearfix:after { /*html側でクラス名つけないと適応されないので意味ない…忘れがち*/
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .content {
   overflow: hidden;
 }

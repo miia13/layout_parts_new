@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .clearfix:after {
   content: "";
   display: block;
@@ -11,6 +12,7 @@
   margin: 0 auto;
   width: 940px;
   overflow: hidden;
+  padding: 20px;
   background-color: #eff3f4
 }
 
@@ -18,19 +20,23 @@
   float: left;
   background-color: #3274ae;
   padding: 20px;
-  margin: 20px;
-  margin-right: 0;
+  margin-left: 20px;
 }
 
-.text {
+li:first-child {
+  margin-left: 0px;
+}
+
+/*親要素(ul)にpaddingを指定して子要素(li)でmarginを指定して幅をとる。
+ただ、paddingがなくなると濃い青の部分が見えなくなってしまうので注意！*/
+
+.text { /*html側をdivからpタグに変更*/
   width: 230px;
   background-color: #eaf4ff;
   font-size: 16px;
   line-height: 16px;
   padding: 20px;
-  border: solid;
-  border-width: 10px;
-  border-color: #022336;
+  border: 10px solid #022336; /*文字・形・色なるべく1行で*/
   box-sizing: border-box;
 }
 

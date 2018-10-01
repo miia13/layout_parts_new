@@ -1,24 +1,49 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text {
-  margin: auto;
+.textalign {
+  text-align: center;
+}
+.textalign_text {
+  display: inline-block;
   width: 90px;
   padding: 10px;
-  text-align: center;
   box-sizing: border-box;
   background-color: #e6f2ff;
 }
 
-.table {
-  display: flex;
-  height: 100%;
+.margin {
+  margin: 0 auto;
+  width: 90px;
+  padding: 10px;
+  background-color: #e6f2ff;
 }
+
+.margin-text {
+  text-align: center;
+}
+
+/*textalignで青い箱を真ん中に持ってきて、display:inlineblockでtextを中央寄せする。
+magin0autoで青い箱を中央寄せして、textalignでtextを中央寄せする。*/
+
+.table {
+  display: table;
+}
+
+.text-box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .table-text {
+  display: inline-block;
   background-color: #fff;
   padding: 10px;
-  margin: auto;
 }
+
+/*親要素にdisplay:tableを指定して、その中にtable-cellを作る。
+textの部分はinline-blockを付けないと真ん中に寄らない。*/
 
 .flex {
   display: flex;

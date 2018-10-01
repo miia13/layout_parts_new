@@ -4,6 +4,7 @@ table {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+  table-layout: fixed;/*追加*/
 }
 
 tr:nth-child(even) {
@@ -18,16 +19,23 @@ table th {
   line-height: 26px;
   border: solid 1px #dedede;
 }
-/* 回答はここに書いてね */
+
 table td {
   font-size: 16px;
   padding: 10px;
   line-height: 22px;
   border: solid 1px #dedede;
 }
-table tr:last-child td {
+
+tr:last-child {
+  border-top: dashed 2px #000;
+}
+
+/*table tr:last-child td {
   border-top: dashed 2px #000;
 }
 table tr:last-child th {
-  border-top: dashed 2px #000;
-}
+  border-top: dashed 2px #000;*/
+
+/* 回答はここに書いてね */
+

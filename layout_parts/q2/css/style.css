@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.clearfix:after {
+.clearfix:after { /*html側でクラス名つけないと適応されないので意味ない…忘れがち*/
   content: "";
   display: block;
   clear: both;
@@ -12,7 +12,8 @@
   overflow: hidden;
   padding: 20px;
   background-color: #eff3f4;
-}/* 回答はここに書いてね */
+}
+
 .text {
   font-size: 18px;
   line-height: 22px;
@@ -27,4 +28,6 @@
   margin-left: 20px;
   margin-bottom: 10px;
 }
+
+/* 回答はここに書いてね */
 

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
+.number { /*.box クラス名変更*/
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
@@ -9,7 +9,9 @@
   margin: auto;
 }
 
-.one, .two, .three, .four, .five, .six, .seven, .eight {
+/*.one, .two, .three, .four, .five, .six, .seven, .eight
+共通のクラス名を付けて表記を少なく(短く)する。*/
+.item {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -85,7 +87,7 @@
 
 .nine {
   width: 100px;
-  height: 100px;
+  /*height: 100px;*/
   position: fixed;
   top: 0;
   left: 0;

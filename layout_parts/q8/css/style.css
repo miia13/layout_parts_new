@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
-}
 
 .btn-small {
   display: inline-block;
@@ -57,6 +55,12 @@
 }
 
 /*form*/
+
+.clearfix:after { /*html側でクラス名つけないと適応されないので意味ない…忘れがち*/
+  content: "";
+  display: block;
+  clear: both;
+}
 
 .q8-form {
   width: 700px;
