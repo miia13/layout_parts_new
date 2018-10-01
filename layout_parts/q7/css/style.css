@@ -10,10 +10,6 @@
   clear: both;
 }
 
-.content {
-  overflow: hidden;
-}
-
 .text {
   float: left;
   width: 225px;
@@ -25,7 +21,7 @@
   margin-right: 50px;
 }
 
-.content2 {
+.content {
   display: table;
   table-layout: fixed;
 }

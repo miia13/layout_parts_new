@@ -13,7 +13,8 @@
   width: 940px;
   overflow: hidden;
   padding: 20px;
-  background-color: #eff3f4
+  background-color: #eff3f4;
+  box-sizing: border-box;
 }
 
 .q1-list > li {
