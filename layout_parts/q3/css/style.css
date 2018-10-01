@@ -7,7 +7,7 @@
   table-layout: fixed;/*追加*/
 }
 
-tr:nth-child(even) {
+.graph tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
